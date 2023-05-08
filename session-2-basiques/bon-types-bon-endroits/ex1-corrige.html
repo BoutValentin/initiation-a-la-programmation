@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercice let et const</title>
+  <script>
+    // Remplacez les "..." par let ou const pour déclarer et initialiser des variables
+    // Réponse : let est le meilleur choix car au ligne suivante, nous réaffectons les valeurs de ces variables,
+    // cela serait impossible avec const.
+    let variable_mon_nombre = 5;
+    let variable_ma_chaine = "Bonjour";
+    let variable_mon_boolean = true;
+
+    // Remplacez les "..." par let ou const pour déclarer des variables sans initialisation
+    // Réponse: let est le meilleur choix de nouveau. const est impossible car nous ne donnons pas de valeurs à notre 
+    // variable
+    let a;
+    let b;
+    let c;
+    
+    // Rien à remettre ici pour réaffecter des variables.
+    variable_mon_nombre = 10;
+    variable_mon_nombre = "Bonsoir";
+    variable_mon_boolean = false;
+
+    // Remplacez les "..." par let ou const pour déclarer des variables ne changeant pas dans le code
+    // const est ici le meilleur choix car nous ne réaffections pas ces variables ensuites. De plus, de part le nom de 
+    // ces variables, on peux estimer qu'il s'agit de valeur fixe dans le temps.
+    const taille_chaine = variable_ma_chaine.length;
+    const valeur_par_defaut = 100;
+
+    // Affichez les valeurs des variables dans la console
+    console.log(variable_mon_nombre);
+    console.log(variable_ma_chaine);
+    console.log(variable_mon_boolean);
+    console.log(a);
+    console.log(b);
+    console.log(c);
+    console.log(taille_chaine);
+    console.log(valeur_par_defaut);
+  </script>
+</head>
+<body>
+  <h1>Exercice var, let et const</h1>
+  <p>Comparez avec le corrigé vos réponses mais gardez une trace de celle ci pour que l'on puisse en discuter.</p>
+  <p>N'utilisez pas le mot clef var</p>
+</body>
+</html>

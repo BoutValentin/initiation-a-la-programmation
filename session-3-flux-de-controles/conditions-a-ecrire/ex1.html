@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>Conditions à ecrire : Une histoire d'heure</title>
+  </head>
+  <script>
+    // Cette variable stocke l'heure actuelle.
+    // La donnée est sous le format d'un nombre entier de 1 à 23
+    const heure = new Date().getHours();
+    
+
+    // Écrivez ici vos conditions
+    // Si l'heure est entre 0 et 12, vous devez affiché Bonjour
+    // Si l'heure est entre 12 et 18 vous devez affiché Bonne après-midi
+    // Dans les autres cas, affichez Bonne soirée.
+
+    // Instructions : vous devez utilisez des if, else if et else.
+    // utilisez windows.alert("Bonjour") pour afficher quelque chose.
+
+    // Ici votre code
+    if (heure >= 0 && heure < 12) {
+      alert("Bonjour !");
+    } else if (heure >= 12 && heure < 18) {
+      alert("Bonne après-midi !");
+    } else {
+      alert("Bonne soirée !");
+    }
+
+  </script>
+
+  <body>
+    <h1>Conditions à écrire : Une histoire d'heure.</h1>
+    <p>Le but de l'exercice est d'écrire les conditions permettant d'afficher une alerte en fonction de l'heure de la journée.</p>
+    <p>Comparez ensuite avec la correction mais ne corrigez pas, pour que l'on puisse en discuter</p>
+  </body>
+</html>
